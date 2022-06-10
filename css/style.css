@@ -1,0 +1,38 @@
+.logo {
+    height: 100px;
+    width: 100px;
+}
+footer .logo img {
+    height: 80px;
+    width: auto;
+    margin-top: 10px;
+  }
+  footer .social-media a {
+    display: flex;
+    align-items: center;
+  }
+  .social-media {
+    display: flex;
+  }
+  .footer-image {
+    height: 32px;
+    width: auto;
+    margin-right: 8px;
+  }
+  footer > section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer {
+    background-color: black;
+    opacity:90%;
+  }
+  .clearfix {
+      padding: 20px;
+  }
+  .text-center {
+    margin-top: 20px;
+    color: white;
+
+  }
