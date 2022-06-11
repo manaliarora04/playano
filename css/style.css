@@ -38,9 +38,21 @@ footer .logo img {
   .playano-features {
     display: flex;
   }
+
   .video {
     padding: 30px;
-    width: 100%;
-    
-  
+    display:flex;
+  }
+  @media (min-width: 576px) {
+    .card-deck .card {
+      flex: 50%;
+      -ms-flex: 50%;
+    } 
+  }
+
+  @media (min-width: 768px) {
+    .card-deck .card {
+      flex: 1 0 0%;
+      -ms-flex: 1 0 0%;
+    } 
   }
