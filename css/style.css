@@ -40,8 +40,9 @@ footer .logo img {
   }
 
   .video {
-    padding: 30px;
+    padding: 50px;
     display:flex;
+    
   }
   video img {
     width: 100%;
